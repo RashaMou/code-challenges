@@ -1,5 +1,15 @@
-// Karl has an array of integers. He wants to reduce the array until all remaining elements are equal. Determine the minimum number of elements to delete to reach his goal.
-// For example, if his array is [1, 2, 2, 3] , we see that he can delete the 2 elements 1 and 3 leaving [2, 2] . He could also delete both 2s and either the 1 or the 3, but that would take 3 deletions. The minimum number of deletions is 2.
+/*
+Karl has an array of integers. He wants to reduce the array until all remaining elements are equal. Determine the minimum number of elements to delete to reach his goal.
+For example, if his array is [1, 2, 2, 3] , we see that he can delete the 2 elements 1 and 3 leaving [2, 2] . He could also delete both 2s and either the 1 or the 3, but that would take 3 deletions. The minimum number of deletions is 2.
+
+Function Description
+Complete the equalizeArray function in the editor below. It must return an integer that denotes the minimum number of deletions required.
+equalizeArray has the following parameter: 
+- arr: an array of integers
+
+*/
+// Time complexity: O(n)
+// Space complexity: O(n)
 
 function equalizeArray(arr) {
   // create object to hold array elements and their number of occurences
